@@ -52,7 +52,7 @@ def main():
     with col1:
         st.text('Variables tipo A')
         feature1 = st.slider('feature1', -2.0, 5.0, 0.5)
-        feature2 = st.text_input('feature2')
+        feature2 = st.slider('feature2', -2.0, 5.0, 1.5)
         feature3 = st.text_input('feature3') 
     with col2:
         st.text('Variables tipo B')
