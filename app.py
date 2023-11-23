@@ -44,7 +44,7 @@ def prediccion1 (feature1, feature2, feature3, feature4, feature5, feature6):
 
 # We create the main function in which we define our webpage. We create the streamlit componets
 def main():
-    st.title('Clasificación de erupciones volcánicas')
+    st.title('Erupciones volcánicas')
     st.markdown('Clasificación del tipo de erupción volcánica en función del valor de 6 sensores de vibración')
     
     st.header('Sensores de vibración')
