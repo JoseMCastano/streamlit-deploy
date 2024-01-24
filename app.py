@@ -17,7 +17,6 @@ import streamlit as st
 import streamlit_authenticator as stauth
 import yaml
 from yaml.loader import SafeLoader
-import openpyxl
 
 
 # In[25]:
@@ -90,7 +89,7 @@ if authentication_status:
     
     if archivo is not None:
         # Paso 2: Leer el archivo cargado y crear un objeto DataFrame
-        df = pd.read_excel(archivo, engine='openpyxl')
+        df = pd.read_excel(archivo')
         
         # Paso 3: Añadir el campo resultado en el df con la predicción
         df['resultado']= prediccion1(df)
