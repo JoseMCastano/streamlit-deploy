@@ -74,7 +74,7 @@ if authentication_status:
     st.header('Suba un excel con los valores de los sensores a predecir')
     
     # Permitir descargar un ejemplo de excel
-    template= open('Prueba_volcanes.xlsx','rb')
+    template= open('Plantilla_volcanes.xlsx','rb')
     template_file= template.read()
     st.download_button(
             label='Descargar plantilla ejemplo',
