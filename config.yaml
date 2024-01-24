@@ -1,0 +1,17 @@
+credentials:
+  usernames:
+    jmhotmail:
+      email: josebarcelone@hotmail.com
+      name: John Smith
+      password: '$2b$12$U3dO9Fz4k70HNm0IdV9ZGOtY4ZXFizBmkG60tK4LcM00BpaI.vF/m' # To be replaced with hashed password
+    jmstandai:
+      email: j.castano@stand-ai.com
+      name: Rebecca Briggs
+      password: '$2b$12$n6bFZGdFwoAO6GGGeQzhL.Ca5DwF1tafuzMTXCdyXIp1xSSYrJyOq' # To be replaced with hashed password
+cookie:
+  expiry_days: 0
+  key: random_signature_key
+  name: random_cookie_name
+preauthorized:
+  emails:
+  - josebarcelone@gmail.com
